@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    background-color:#f0f0f0;
+}
+
+.container{
+    width:75rem;
+    margin: 3rem auto;
+    padding: 5rem;
+    box-shadow: .1rem 0 .9rem #c9c4c4;
+    display: flex;
+    justify-content: center;
+   
+}
+.container1, .container2, .container3{
+    width: 18rem;
+    border: 1px solid #0101;
+    align-items: center;
+}
+.container1{
+    background: hsl(31, 77%, 52%);
+    border-top-left-radius: 0.5rem ;
+    border-bottom-left-radius: 0.5rem ;
+}
+h1{
+    margin: 2rem;
+    color: #fff;
+}
+span svg{
+    margin: 2rem 2rem -1rem;
+}
+.container2{
+    background: hsl(184, 100%, 22%);
+}
+.container3{
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 0.5rem ;
+    border-bottom-right-radius: 0.5rem ;
+}
+p{
+    padding-right: 4rem;
+    margin: 2rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+button{
+    padding: 1rem;
+    border-radius: 3rem;
+    border: none;
+    width: 8rem;
+    margin: 2rem 2rem;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+}
+
+.container1 button a{
+    color: hsla(31, 77%, 52%, 0.747);
+}
+.container2 button a{
+    background:  hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%, 0.747);
+}
+.container3 button a{
+    background:  hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%, 0.747);
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  @media screen and (max-width: 375px){
+    .container{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .container1, .container2, .container3{
+        width: 90%;
+        margin: 0 auto;
+        border: 1px solid #0101;
+        align-items: center;
+    }
+
+  }
